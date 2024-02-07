@@ -5,10 +5,11 @@
 # Lists https://www.w3schools.com/python/python_lists.asp
 # 
 
+
 def add(list, item):
   # https://www.w3schools.com/python/python_lists_add.asp
   pass
-
+viesu_saraksts = ["Jānis Cūkgaļa, Guntis Pienvedējs"]
 
 def remove(list, index):
   # https://www.w3schools.com/python/python_lists_remove.asp
@@ -29,24 +30,28 @@ def show(list):
   # https://www.w3schools.com/python/python_lists_access.asp
   pass
 
+
 list = []
 print("List is empty now, what you want to do?")
 while True:
   choice = int(input("1. Add\n2. Remove\n3. Clear\n4. Print list\n5. Show item by index"))
   if choice == 1:
-    item = input("What you want to add?\n")
-    add(list, item)
-    print_list(list)
+    cilveka_vards = input("What you want to add?\n")
+    list.append(cilveka_vards)
+    print(list)
   elif choice == 2:
     index = int(input("What you want to remove?\n"))
-    remove(list, index)
-    print_list(list)
+    list.pop(index)
+    print(list)
   elif choice == 3:
-    clear(list)
-    print_list(list)
+    del list
+    print(list)
   elif choice == 4:
-    print_list(list)
+    print(list)
   elif choice == 5:
-    show(list)
+    index = 0
+    for vardi in list:
+      print(index, vardi)
+      index += 1
   else:
     print("Invalid input")
