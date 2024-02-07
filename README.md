@@ -7,8 +7,8 @@ Programmas iespējams pielietojums:
 
 Specifikācijai jābūt šeit:
 
-Viesu saraksts ballītei
-Var pievienot vai atņemt cilvēku vārdus no viesu saraksta
-Programmai jābut saprotamai jebkuram lietotājam
-Visu sarakstu var iztīrīt un sākt no sākuma, ka butu tukšs
-Var redzēt kurš skaitlis/cipars atbilst katram viesim no šī izveidotā saraksta
+Viesu saraksts ballītei        
+Var pievienot vai atņemt cilvēku vārdus no viesu saraksta      
+Programmai jābut saprotamai jebkuram lietotājam      
+Visu sarakstu var iztīrīt un sākt no sākuma, ka butu tukšs      
+Var redzēt kurš skaitlis/cipars atbilst katram viesim no šī izveidotā saraksta      
